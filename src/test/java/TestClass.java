@@ -7,7 +7,7 @@ public class TestClass {
     @Test
     public void testMethod(){
         final int expected = 4;
-        final int actual = Math.addExact(2,2);
+        final int actual = Math.addExact(2,3 );
         assertEquals( expected, actual, "Should be 2+2 is 4 but it was: " + actual);
     }
 
